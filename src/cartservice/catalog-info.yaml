@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: cart
+  description: Shopping cart microservice
+  tags:
+    - microservice
+    - cart
+  annotations:
+    backstage.io/source-location: url:https://github.com/lumbini21/online-boutique-test/src/cartservice
+spec:
+  type: service
+  lifecycle: production
+  owner: user:lumbini21
+  system: online-boutique
+  providesApis:
+    - cart-api
