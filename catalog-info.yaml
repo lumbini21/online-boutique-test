@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: online-boutique-test
+  description: A modified version of the Online Boutique microservices demo
+  tags:
+    - microservices
+    - kubernetes
+    - ecommerce
+  annotations:
+    github.com/project-slug: lumbini21/online-boutique-test
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: system
+  lifecycle: experimental
+  owner: user:lumbini
