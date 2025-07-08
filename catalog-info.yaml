@@ -1,5 +1,5 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: System
 metadata:
   name: online-boutique-test
   description: A modified version of the Online Boutique microservices demo
@@ -13,4 +13,4 @@ metadata:
 spec:
   type: system
   lifecycle: experimental
-  owner: user:lumbini
+  owner: user:lumbini21
